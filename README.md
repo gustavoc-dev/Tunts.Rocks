@@ -30,10 +30,24 @@ I used a VsCode extension to view spreadsheets in the IDE called Excel Viewer
 <br>
 <a href='https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer'>Excel Viewer</a>
 
-The code is commented to make it easier to understand, the spreadsheet in the file folder will be edited, but there will be a folder with the spreadsheet without editing, I used node.js to run the index.js file
-```javascript
+<h1>To Test</h1>
+The code is commented to make it easier to understand, the spreadsheet in the file folder will be edited, but there will be a folder with the unedited spreadsheet, I used node.js to run the index.js file, creating an output file with the name [TEST] 
+<br>
+This line of code will be commented
+
+``` javascript
+//xlsx.writeFile(workbook, '[TEST]Engenharia de Software - Desafio Gustavo Carvalho.xlsx');
+```
+When testing the code with node, the output file will be named [RESULT] 
+
+``` javascript
+  xlsx.writeFile(workbook, '[RESULT]Engenharia de Software - Desafio Gustavo Carvalho.xlsx')
+```
+And created a new spreadsheet with the name [RESULT] after running the node in the index.js file
+``` javascript
   node index.js
 ```
+
 <h1>Thanks!</h1>
 
 I would like to thank you for the opportunity and I hope to have achieved the expected quality 🤘
