@@ -31,8 +31,7 @@ I used a VsCode extension to view spreadsheets in the IDE called Excel Viewer
 <a href='https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer'>Excel Viewer</a>
 
 The code is commented to make it easier to understand, the spreadsheet in the file folder will be edited, but there will be a folder with the spreadsheet without editing, I used node.js to run the index.js file
-```
- javascript
+```javascript
   node index.js
 ```
 <h1>Thanks!</h1>
