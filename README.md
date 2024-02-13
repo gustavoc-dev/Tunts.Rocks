@@ -18,23 +18,23 @@ I also created a copy of the spreadsheet used in the challenge, according to the
 <h1>Instructions</h1>
 
 Firstly I started npm in the application
- javascript
+``` javascript
   npm init --y
-
+```
 Then I installed the xlsx.json library
- javascript
+``` javascript
   npm install xlsx
-
+```
 
 I used a VsCode extension to view spreadsheets in the IDE called Excel Viewer
 <br>
 <a href='https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer'>Excel Viewer</a>
 
 The code is commented to make it easier to understand, the spreadsheet in the file folder will be edited, but there will be a folder with the spreadsheet without editing, I used node.js to run the index.js file
-
+```
  javascript
   node index.js
-
+```
 <h1>Thanks!</h1>
 
 I would like to thank you for the opportunity and I hope to have achieved the expected quality 🤘
