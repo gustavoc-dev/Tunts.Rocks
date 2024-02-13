@@ -31,14 +31,13 @@ I used a VsCode extension to view spreadsheets in the IDE called Excel Viewer
 <a href='https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer'>Excel Viewer</a>
 
 <h1>To Test</h1>
-The code is commented to make it easier to understand, the spreadsheet in the file folder will be edited, but there will be a folder with the unedited spreadsheet, I used node.js to run the index.js file, creating an output file with the name [TEST] 
-<br>
+The code is commented to make it easier to understand, the spreadsheet in the file folder will be edited, but there will be a folder with the unedited spreadsheet, I used node.js to run the index.js file, creating an output file with the name [TEST]
 This line of code will be commented
 
 ``` javascript
 //xlsx.writeFile(workbook, '[TEST]Engenharia de Software - Desafio Gustavo Carvalho.xlsx');
 ```
-When testing the code with node, the output file will be named [RESULT] 
+To test the code with node, the output file will be named [RESULT] 
 
 ``` javascript
   xlsx.writeFile(workbook, '[RESULT]Engenharia de Software - Desafio Gustavo Carvalho.xlsx')
